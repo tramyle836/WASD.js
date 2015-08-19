@@ -29,7 +29,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'builds/<%= pkg.name %>.min.js': [
-						'src/js/jquery-1.11.3.min.js',
                         'src/js/app.js'
                     ]
                 }

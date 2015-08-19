@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>WASD</title>
+	<script src="src/js/jquery-1.11.3.min.js"></script>
+	<script src="builds/wasd.min.js"></script>
+	<link rel="stylesheet" href="builds/wasd.min.css">
+</head>
+<body>
+
+	<div id="player1"></div>
+
+	<script>
+		wasd.map('#player1');
+		wasd.UP(function(e) {
+			console.log('UP');
+			$(e).animate({ "bottom": "+=100px" }, "fast" );
+		});
+		wasd.DOWN(function(e) {
+			console.log('DOWN');
+			$(e).animate({ "top": "+=100px" }, "fast" );
+		});
+		wasd.LEFT(function(e) {
+			console.log('LEFT');
+			$(e).animate({ "right": "+=100px" }, "fast" );
+		});
+		wasd.RIGHT(function(e) {
+			console.log('RIGHT');
+			$(e).animate({ "left": "+=100px" }, "fast" );
+		});
+		console.log(wasd.locate());
+	</script>
+
+</body>
+</html>
