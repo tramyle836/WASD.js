@@ -1,0 +1,19 @@
+{
+  "name": "toca",
+  "version": "1.0.0",
+  "description": "My Basic NPM Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/terrillo/TOCA.git"
+  },
+  "author": "Terrillo Walls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terrillo/TOCA/issues"
+  },
+  "homepage": "https://github.com/terrillo/TOCA#readme"
+}
