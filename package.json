@@ -1,7 +1,7 @@
 {
-  "name": "toca",
+  "name": "wasd",
   "version": "1.0.0",
-  "description": "My Basic NPM Framework",
+  "description": "WASD key movement with JQuery",
   "main": "index.js",
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/terrillo/TOCA.git"
+    "url": "git+ssh://git@github.com/terrillo/WASD.git"
   },
   "author": "Terrillo Walls",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/terrillo/TOCA/issues"
+    "url": "https://github.com/terrillo/WASD/issues"
   },
-  "homepage": "https://github.com/terrillo/TOCA#readme"
+  "homepage": "https://github.com/terrillo/WASD#readme"
 }
