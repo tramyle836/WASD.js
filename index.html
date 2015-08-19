@@ -13,19 +13,19 @@
 		wasd.map('#player1');
 		wasd.UP(function(e) {
 			console.log('UP');
-			$(e).animate({ "bottom": "+=100px" }, "fast" );
+			$(e).animate({ "bottom": "+=100px" });
 		});
 		wasd.DOWN(function(e) {
 			console.log('DOWN');
-			$(e).animate({ "top": "+=100px" }, "fast" );
+			$(e).animate({ "top": "+=100px" });
 		});
 		wasd.LEFT(function(e) {
 			console.log('LEFT');
-			$(e).animate({ "right": "+=100px" }, "fast" );
+			$(e).animate({ "right": "+=100px" });
 		});
 		wasd.RIGHT(function(e) {
 			console.log('RIGHT');
-			$(e).animate({ "left": "+=100px" }, "fast" );
+			$(e).animate({ "left": "+=100px" });
 		});
 		console.log(wasd.locate());
 	</script>
