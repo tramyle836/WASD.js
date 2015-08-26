@@ -1,2 +1,2 @@
-# WASP
-WASP key control with js
+# WASD
+WASD key control with js
